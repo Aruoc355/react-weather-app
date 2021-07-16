@@ -1,0 +1,13 @@
+.Weather {
+  border: 1px solid;
+  color: royalblue;
+  border-radius: 15px;
+  padding: 15px;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+h1 {
+  text-align: left;
+}
