@@ -9,19 +9,11 @@ export default function App() {
         <Weather />
         <footer>
           Coded by{" "}
-          <a
-            href="https://www.linkedin.com/in/alessia-ruocco-17a61041/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/alessia-ruocco-17a61041/">
             Alessia Ruocco
           </a>{" "}
           , open-sourced on{" "}
-          <a
-            href="https://github.com/Aruoc355/react-weather-app"
-            target="_blank"
-          >
-            GitHub{" "}
-          </a>
+          <a href="https://github.com/Aruoc355/react-weather-app">GitHub </a>
           and hosted on{" "}
           <a href="https://cranky-booth-38afee.netlify.app/" target="_blank">
             Netlify
