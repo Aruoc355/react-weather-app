@@ -28,7 +28,7 @@
   text-transform: capitalize;
 }
 .Weather form {
-  margin-bottom: 20px;
+  margin: 20px;
 }
 .Weather #btn:hover {
   background-color: thistle;
