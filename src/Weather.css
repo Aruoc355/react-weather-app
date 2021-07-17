@@ -25,6 +25,7 @@
 .Weather li {
   font-family: monospace;
   font-weight: 18px;
+  text-transform: capitalize;
 }
 .Weather form {
   margin-bottom: 20px;
