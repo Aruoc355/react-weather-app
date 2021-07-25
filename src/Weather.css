@@ -45,9 +45,9 @@
   position: absolute;
   margin-bottom: 20px;
 }
-.Weather img {
+.Weather canvas {
   float: left;
   margin-right: 20px;
-  height: 84px;
-  width: 84px;
+  height: 64px;
+  width: 64px;
 }
