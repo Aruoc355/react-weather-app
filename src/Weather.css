@@ -1,10 +1,16 @@
+body {
+  background: url("https://i.natgeofe.com/n/3a57e30f-6b0a-444c-9b20-8bf481ee1793/01-milky-way-NationalGeographic_1959323.jpg?w=636&h=424");
+  opacity: 0.9;
+}
+
 .Weather {
   font-family: monospace;
-  margin: 30px auto;
+  margin: 50px auto;
   display: block;
 
   border: 1px solid;
   color: #9772f3;
+  opacity: 0.9;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   padding: 15px;
@@ -18,7 +24,7 @@
 }
 .Weather h1 {
   text-align: left;
-  color: #70d5d1;
+  color: #43576f;
   margin: 20px 0 0 0;
 }
 
@@ -48,6 +54,4 @@
 .Weather canvas {
   float: left;
   margin-right: 20px;
-  height: 64px;
-  width: 64px;
 }

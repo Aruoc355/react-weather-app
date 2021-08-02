@@ -14,7 +14,7 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Alessia Ruocco
+            ALRU
           </a>{" "}
           , open-sourced on{" "}
           <a

@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
+import "./WeatherForecastDay.css";
 
 export default function WeatherForecastDay(props) {
   function day() {
@@ -14,8 +15,12 @@ export default function WeatherForecastDay(props) {
     <div className="WeatherForecastDay">
       <div className="WeatherDay">{day()}</div>
 
-      <WeatherIcon code={props.data.weather[0].icon} size={28} />
-      <div className="Forecast-temperature"></div>
+      <WeatherIcon
+        className="Icon"
+        code={props.data.weather[0].icon}
+        size={28}
+      />
+      <div className="Forecast-temperature" className="Temps"></div>
       <span className="Forecast-temperature-max">
         {Math.round(props.data.temp.max)}°
       </span>
