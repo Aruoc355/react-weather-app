@@ -3,3 +3,6 @@
   display: block;
   text-align: center;
 }
+.Forecast-temperature-max {
+  font-weight: bold;
+}
